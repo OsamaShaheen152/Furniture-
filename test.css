@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+div {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  
+}
+
+
+.add-to-wish{
+  background-color: red;
+}

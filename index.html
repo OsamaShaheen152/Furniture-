@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/home/home_style.css" />
+    <link rel="stylesheet" href="assets/home/home_media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Furniro</title>
+  </head>
+  <body>
+    <nav>
+    <a href="index.html"> <div><img src="assets/images/Logo.png" alt="" /></div></a> 
+      <div class="nav-mid-container">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-icons-container">
+        <span>
+          <a href=""><i class="fa-regular fa-user"></i></a
+        ></span>
+        <span
+          ><a href=""><i class="fa-solid fa-magnifying-glass"></i></a> </span
+        ><span
+          ><a href="wish_list.html    "><i class="fa-regular fa-heart"></i></a></span
+        ><span
+          ><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </span>
+        <div id="wishing-list-counter">0</div>
+        <div id="cart-counter">0</div>
+      </div>
+      <span><i class="fa-solid fa-bars"></i></span>
+    </nav>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+    <button id="scrollToDownBtn" title="Go to down">↓</button>
+
+
+
+    <section class="sec-1">
+      <div>
+        <span>New Arrival</span>
+        <h1>Discover Our New Collection</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis.
+        </p>
+      <a href="shop.html"><button>BUY Now</button></a>  
+      </div>
+    </section>
+    <section class="sec-2">
+      <div>
+        <h2>Browse The Range</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div>
+        <div>
+          <img src="assets/images/Mask Group.png" alt="" /> <span>Dining</span>
+        </div>
+        <div>
+          <img src="assets/images/Image-living room.png" alt="" />
+          <span>Living</span>
+        </div>
+        <div>
+          <img src="assets/images/Mask Group (1).png" alt="" />
+          <span>Bedroom</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-3">
+      <h2>Our Products</h2>
+
+      <div class="products-container">
+        <!-- <div class="product">
+          <div >
+            <img class="product-image" src="assets/images/Images1.1.png" alt="" />
+          </div>
+
+          <div class="product-details">
+            <span class="product-name">Syltherine</span>
+            <p>Stylish cafe chair</p>
+            <div class="product-price">
+              <span class="current-price">$2.500</span>
+              <span class="last-price">$3.500</span>
+            </div>
+          </div>
+
+          <div class="product-overlay">
+            
+            <div class="product-buttons">
+              <button class="add-to-cart">Add to cart</button>
+
+              <button
+                class="view-product-detials"
+                onclick=" viewProductDetails(1)"
+              >
+                View Details
+              </button>
+
+              
+              <span class="add-to-wish" ><i class="fa-solid fa-heart "></i></span>
+          </div>
+        </div>
+
+
+        </div>
+
+        <div class="product">
+          <div >
+            <img class="product-image" src="assets/images/Images (3).png" alt="" />
+          </div>
+
+          <div class="product-details">
+            <span class="product-name">Leviosa</span>
+            <p>Stylish cafe chair</p>
+
+            <div class="product-price">
+              <span class="current-price">$2.500</span>
+            </div>
+          </div>
+
+          <div class="product-overlay">
+            <div class="product-buttons">
+              <button class="add-to-cart">Add to cart</button>
+
+              <button
+                class="view-product-detials"
+                onclick=" viewProductDetails(2)"
+              >
+                View Details
+              </button>
+
+            
+              <span class="add-to-wish"><i class="fa-solid fa-heart "></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div >
+            <img class="product-image" src="assets/images/Images.png" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-name">Lolito</span>
+            <p>Luxury big sofa</p>
+            <div class="product-price">
+              <span class="current-price">$7.000</span>
+              <span class="last-price">$14.000</span>
+            </div>
+          </div>
+
+          <div class="product-overlay">
+            <div class="product-buttons">
+              <button class="add-to-cart">Add to cart</button>
+
+              <button
+                class="view-product-detials"
+                onclick=" viewProductDetails(3)"
+              >
+                View Details
+              </button>
+
+              <span class="add-to-wish"><i class="fa-solid fa-heart"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div>
+            <img class="product-image" src="assets/images/Images (1).png" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-name">Muggo</span>
+            <p>Small mug</p>
+            <div class="product-price">
+              <span class="current-price">$1.500</span>
+            </div>
+          </div>
+
+          <div class="product-overlay">
+            <div class="product-buttons">
+              <button class="add-to-cart">Add to cart</button>
+
+              <button
+                class="view-product-detials"
+                onclick=" viewProductDetails(4)"
+              >
+                View Details
+              </button>
+
+            
+              <span class="add-to-wish"><i class="fa-solid fa-heart "></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div >
+            <img class="product-image" src="assets/images/image 4.png" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-name">Respira</span>
+            <p>Outdoor bar table and stool</p>
+            <div class="product-price">
+              <span class="current-price">$5.000</span>
+            </div>
+          </div>
+
+          <div class="product-overlay">
+            <div class="product-buttons">
+              <button class="add-to-cart">Add to cart</button>
+
+              <button
+                class="view-product-detials"
+                onclick=" viewProductDetails(5)"
+              >
+                View Details
+              </button>
+
+          
+              <span class="add-to-wish" ><i class="fa-solid fa-heart "></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div >
+            <img class="product-image" src="assets/images/Image 5.png" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-name">Grifo</span>
+            <p>Night lamp</p>
+            <div class="product-price">
+              <span class="current-price">$1.500</span>
+            </div>
+          </div>
+
+          <div class="product-overlay">
+            <div class="product-buttons">
+              <button class="add-to-cart">Add to cart</button>
+
+              <button
+                class="view-product-detials"
+                onclick=" viewProductDetails(6)"
+              >
+                View Details
+              </button>
+
+          
+              <span class="add-to-wish"><i class="fa-solid fa-heart"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div >
+            <img class="product-image" src="assets/images/image 8.png " alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-name">Potty</span>
+            <p>Minimalist flower pot</p>
+            <div class="product-price">
+              <span class="current-price">$5.000</span>
+            </div>
+          </div>
+
+          <div class="product-overlay">
+            <div class="product-buttons">
+              <button class="add-to-cart">Add to cart</button>
+
+              <button
+                class="view-product-detials"
+                onclick=" viewProductDetails(7)"
+              >
+                View Details
+              </button>
+
+            
+              <span class="add-to-wish"><i class="fa-solid fa-heart  "></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div >
+            <img class="product-image" src="assets/images/Images (2).png" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-name">Pingky</span>
+            <p>Cute bed set</p>
+            <div class="product-price">
+              <span class="current-price">$14.000</span>
+            </div>
+              </div>
+
+              <div class="product-overlay">
+                <div class="product-buttons">
+                  <button class="add-to-cart">Add to cart</button>
+    
+                  <button
+                    class="view-product-detials"
+                    onclick=" viewProductDetails(8)"
+                  >
+                    View Details
+                  </button>
+    
+                
+              <span class="add-to-wish" ><i class="fa-solid fa-heart   "></i></span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <a href="shop.html">  <button class="show-more">Show More</button></a>
+      
+    </section>
+
+    <section class="sec-4">
+      <div>
+        <h2>50+ Beautiful rooms inspiration</h2>
+        <p>
+          Our designer already made a lot of beautiful prototipe of rooms that
+          inspire you
+        </p>
+        <button>Explore More</button>
+      </div>
+      <div>
+        <div>
+          <img src="assets/images/sec-4-imgs/Rectangle 24.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/sec-4-imgs/Rectangle 25.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/sec-4-imgs/Rectangle 26.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="sec-5">
+      <div>
+        <span>Share your setup with</span>
+        <h2>#FuniroFurniture</h2>
+      </div>
+      <div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 36.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 37.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 38.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 39.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 40.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 43.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 41.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 45.png" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/home-sec-5/Rectangle 44.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <hr />
+      <div>
+        <div>
+          <h2>Funiro.</h2>
+          <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+        </div>
+        <div>
+          <ul>
+            Links
+            <a href="index.html">Home</a
+            ><a href="shop.html">Shop</a
+            ><a href="about.html">About</a
+            ><a href="contact.html">Contact</a>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            Help
+            <a href="">Payment Options</a
+            ><a href="">Returns</a
+            ><a href="">Privacy Policies</a>
+          </ul>
+        </div>
+        <div>
+          <span>Newsletter</span>
+          <div>
+            <div>Enter Your Email Address</div>
+            <span>SUBSCRIBE</span>
+          </div>
+        </div>
+      </div>
+      <span>2023 furino. All rights reverved</span>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+<script src="assets/js/main.js"></script>
+  </body>
+</html>
